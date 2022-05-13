@@ -48,7 +48,7 @@ async function main() {
   console.log("BOUGHT COFFEE");
 
   await printBalances(addresses);
-  await butMeACoffee.connect(owner).withdrawTips();
+  await buyMeACoffee.connect(owner).withdrawTips();
   
   console.log("WITHDRAW TIPS");
   
