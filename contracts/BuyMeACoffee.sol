@@ -39,7 +39,7 @@ contract BuyMeACoffee {
      * @param _name is name of the coffee purchaser
      * @param _message is message from the purchaser
      */
-    function buyCoffe(string memory _name, string memory _message) public payable {
+    function buyCoffee(string memory _name, string memory _message) public payable {
       require(msg.value > 0, "can't buy coffee for free!");
 
       memos.push(Memo(
