@@ -44,7 +44,7 @@ contract BuyMeACoffee {
 
       memos.push(Memo(
         msg.sender,
-        block.timpestamp,
+        block.timestamp,
         _name,
         _message
       ));
